@@ -1,0 +1,77 @@
+[
+  {
+    "id": "organization",
+    "title": "Как попасть в организацию",
+    "url": "https://support.grnd.gg/ru/articles/11792114",
+    "publisher": "Grand Mobile Help Center",
+    "verifiedAt": "01.09.2026",
+    "usedBy": [
+      "Мой сервер"
+    ]
+  },
+  {
+    "id": "army",
+    "title": "Воинская часть",
+    "url": "https://support.grnd.gg/ru/articles/11970174",
+    "publisher": "Grand Mobile Help Center",
+    "verifiedAt": "01.09.2026",
+    "usedBy": [
+      "Военная часть",
+      "Quiz"
+    ]
+  },
+  {
+    "id": "terms",
+    "title": "VI. Термины и их описание",
+    "url": "https://support.grnd.gg/ru/articles/12974307",
+    "publisher": "Grand Mobile Help Center",
+    "verifiedAt": "01.09.2026",
+    "usedBy": [
+      "RP-термины",
+      "Quiz"
+    ]
+  },
+  {
+    "id": "general",
+    "title": "I. Общие положения проекта",
+    "url": "https://support.grnd.gg/ru/articles/12974291",
+    "publisher": "Grand Mobile Help Center",
+    "verifiedAt": "01.09.2026",
+    "usedBy": [
+      "Правила"
+    ]
+  },
+  {
+    "id": "gameplay",
+    "title": "V. Правила игрового процесса",
+    "url": "https://support.grnd.gg/ru/articles/12974302",
+    "publisher": "Grand Mobile Help Center",
+    "verifiedAt": "01.09.2026",
+    "usedBy": [
+      "Правила",
+      "Quiz"
+    ]
+  },
+  {
+    "id": "chat",
+    "title": "II. Правила общения и использования чатов",
+    "url": "https://support.grnd.gg/ru/articles/12974295",
+    "publisher": "Grand Mobile Help Center",
+    "verifiedAt": "01.09.2026",
+    "usedBy": [
+      "RP-термины",
+      "Правила"
+    ]
+  },
+  {
+    "id": "official-links",
+    "title": "Официальные источники Grand Mobile",
+    "url": "https://support.grnd.gg/ru/articles/12802629",
+    "publisher": "Grand Mobile Help Center",
+    "verifiedAt": "01.09.2026",
+    "usedBy": [
+      "Мой сервер",
+      "Источники"
+    ]
+  }
+]

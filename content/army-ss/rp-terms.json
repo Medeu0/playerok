@@ -1,0 +1,226 @@
+[
+  {
+    "id": "term-rp",
+    "title": "RP",
+    "abbr": "RP",
+    "name": "Role Play",
+    "body": "Игра роли и действия в логике персонажа.",
+    "example": "Персонаж действует последовательно с ролью и обстоятельствами.",
+    "counterexample": "Игнорировать ситуацию и действовать без ролевой логики.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical",
+    "whyItMatters": "Показывает, что ты понимаешь основу ролевого взаимодействия.",
+    "commonMistake": "Игнорировать ситуацию и действовать без ролевой логики."
+  },
+  {
+    "id": "term-ic",
+    "title": "IC",
+    "abbr": "IC",
+    "name": "In Character",
+    "body": "Всё, что относится к игровому миру и персонажу.",
+    "example": "Персонаж получил приказ от другого персонажа в игре.",
+    "counterexample": "Называть IC любую информацию только потому, что она полезна.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical",
+    "whyItMatters": "Помогает держать игровую информацию внутри роли.",
+    "commonMistake": "Называть IC любую информацию только потому, что она полезна."
+  },
+  {
+    "id": "term-ooc",
+    "title": "OOC",
+    "abbr": "OOC",
+    "name": "Out Of Character",
+    "body": "Информация и общение вне игрового мира.",
+    "example": "Игрок обсуждает техническую проблему вне роли.",
+    "counterexample": "Переносить внеигровое обсуждение в решения персонажа.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical",
+    "whyItMatters": "Нужен, чтобы не смешивать знания игрока и персонажа.",
+    "commonMistake": "Переносить внеигровое обсуждение в решения персонажа."
+  },
+  {
+    "id": "term-mg",
+    "title": "MG",
+    "abbr": "MG",
+    "name": "Meta Gaming",
+    "body": "Использование OOC-информации в IC.",
+    "example": "Персонаж действует только по сведениям, полученным в IC.",
+    "counterexample": "Использовать место из стороннего чата как знание персонажа.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical",
+    "whyItMatters": "Это частая проверка понимания границы IC/OOC.",
+    "commonMistake": "Использовать место из стороннего чата как знание персонажа."
+  },
+  {
+    "id": "term-nonrp",
+    "title": "NonRP",
+    "abbr": "NonRP",
+    "name": "Non Role Play",
+    "body": "Действия, не соответствующие логике RP.",
+    "example": "Действие учитывает обстоятельства и возможности персонажа.",
+    "counterexample": "Игнорировать ролевой контекст ради результата.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical",
+    "whyItMatters": "Помогает оценивать действие через логику роли, а не удобство.",
+    "commonMistake": "Игнорировать ролевой контекст ради результата."
+  },
+  {
+    "id": "term-pg",
+    "title": "PG",
+    "abbr": "PG",
+    "name": "Power Gaming",
+    "body": "Нереалистичное преувеличение возможностей персонажа.",
+    "example": "Персонаж учитывает ограничения и опасность ситуации.",
+    "counterexample": "Преувеличивать возможности персонажа без реалистичного основания.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical",
+    "whyItMatters": "Проверяет реалистичную оценку возможностей персонажа.",
+    "commonMistake": "Преувеличивать возможности персонажа без реалистичного основания."
+  },
+  {
+    "id": "term-dm",
+    "title": "DM",
+    "abbr": "DM",
+    "name": "Death Match",
+    "body": "Убийство или нанесение урона без достаточной RP-причины.",
+    "example": "Конфликт развивается в рамках понятной RP-ситуации.",
+    "counterexample": "Наносить урон без достаточной RP-причины.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high",
+    "whyItMatters": "Нужно отличать наличие RP-причины от беспричинного урона.",
+    "commonMistake": "Наносить урон без достаточной RP-причины."
+  },
+  {
+    "id": "term-mass-dm",
+    "title": "Mass DM",
+    "abbr": "Mass DM",
+    "name": "Mass Death Match",
+    "body": "Массовое нанесение урона или убийство без RP-причины.",
+    "example": "Сначала определить, есть ли RP-причина и массовый характер.",
+    "counterexample": "Путать любой одиночный случай DM с Mass DM.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high",
+    "whyItMatters": "Отличается от DM массовым характером.",
+    "commonMistake": "Путать любой одиночный случай DM с Mass DM."
+  },
+  {
+    "id": "term-mass-dm-gz",
+    "title": "Mass DM GZ",
+    "abbr": "Mass DM GZ",
+    "name": "Mass DM Green Zone",
+    "body": "Массовое нарушение DM в зелёной зоне.",
+    "example": "При разборе учитывать и массовость, и место события.",
+    "counterexample": "Забывать про признак зелёной зоны.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high",
+    "whyItMatters": "Добавляет к массовому DM контекст зелёной зоны.",
+    "commonMistake": "Забывать про признак зелёной зоны."
+  },
+  {
+    "id": "term-db",
+    "title": "DB",
+    "abbr": "DB",
+    "name": "Drive By",
+    "body": "Нанесение урона транспортом или некорректная стрельба из него.",
+    "example": "Использовать транспорт без нанесения им некорректного урона.",
+    "counterexample": "Путать DB с любым нарушением рядом с машиной.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high",
+    "whyItMatters": "Помогает распознавать нарушение, связанное с транспортом.",
+    "commonMistake": "Путать DB с любым нарушением рядом с машиной."
+  },
+  {
+    "id": "term-sk",
+    "title": "SK",
+    "abbr": "SK",
+    "name": "Spawn Kill",
+    "body": "Убийство на месте появления персонажа.",
+    "example": "Сначала определить, произошло ли действие на месте появления.",
+    "counterexample": "Путать SK с RK, где важна месть после смерти.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high",
+    "whyItMatters": "Ключевой признак — место появления персонажа.",
+    "commonMistake": "Путать SK с RK, где важна месть после смерти."
+  },
+  {
+    "id": "term-mass-sk",
+    "title": "Mass SK",
+    "abbr": "Mass SK",
+    "name": "Mass Spawn Kill",
+    "body": "Массовое убийство на месте появления.",
+    "example": "Проверять одновременно место появления и массовость.",
+    "counterexample": "Называть Mass SK любой одиночный SK.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high",
+    "whyItMatters": "Отличается от SK массовым характером.",
+    "commonMistake": "Называть Mass SK любой одиночный SK."
+  },
+  {
+    "id": "term-rk",
+    "title": "RK",
+    "abbr": "RK",
+    "name": "Revenge Kill",
+    "body": "Возвращение ради мести после смерти.",
+    "example": "После смерти не возвращаться только ради мести.",
+    "counterexample": "Путать RK с SK, где важнее место появления.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high",
+    "whyItMatters": "Ключевой признак — возвращение ради мести после смерти.",
+    "commonMistake": "Путать RK с SK, где важнее место появления."
+  },
+  {
+    "id": "term-tk",
+    "title": "TK",
+    "abbr": "TK",
+    "name": "Team Kill",
+    "body": "Убийство участника своей организации или семьи.",
+    "example": "Сначала установить, относится ли цель к своей организации или семье.",
+    "counterexample": "Путать TK с любым DM без учёта принадлежности цели.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high",
+    "whyItMatters": "Ключевой признак — принадлежность цели к своей организации или семье.",
+    "commonMistake": "Путать TK с любым DM без учёта принадлежности цели."
+  }
+]

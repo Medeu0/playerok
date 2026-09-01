@@ -1,0 +1,2 @@
+import { productSchema } from '../src/data/schema';import { readDataset, requestedProduct } from './content-tools';
+const id=requestedProduct(),result=productSchema.safeParse(readDataset(id));if(!result.success){console.error(result.error.issues.map(i=>`${i.path.join('.')}: ${i.message}`).join('\n'));process.exit(1)}if(result.data.metadata.id!==id){console.error(`metadata.id must equal requested product: ${id}`);process.exit(1)}console.log(`Dataset valid: ${id} (${result.data.quiz.length} quiz questions)`);

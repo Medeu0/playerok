@@ -1,0 +1,70 @@
+{
+  "intro": "Help Center не задаёт единую универсальную систему повышений и отчётов для каждой организации. Проверьте Discord своего сервера: заметки остаются только на этом устройстве.",
+  "items": [
+    {
+      "id": "server-1",
+      "label": "Открыл официальный Discord Grand Mobile",
+      "priority": "critical"
+    },
+    {
+      "id": "server-2",
+      "label": "Выбрал свой сервер",
+      "priority": "critical"
+    },
+    {
+      "id": "server-3",
+      "label": "Нашёл Discord организаций",
+      "priority": "critical"
+    },
+    {
+      "id": "server-4",
+      "label": "Открыл раздел Военной части",
+      "priority": "critical"
+    },
+    {
+      "id": "server-5",
+      "label": "Проверил требования на СС",
+      "priority": "critical"
+    },
+    {
+      "id": "server-6",
+      "label": "Проверил систему повышения",
+      "priority": "critical"
+    },
+    {
+      "id": "server-7",
+      "label": "Проверил систему отчётов",
+      "priority": "critical"
+    },
+    {
+      "id": "server-8",
+      "label": "Проверил обязанности нужного ранга",
+      "priority": "critical"
+    },
+    {
+      "id": "server-9",
+      "label": "Проверил правила формы",
+      "priority": "critical"
+    },
+    {
+      "id": "server-10",
+      "label": "Проверил дополнительные регламенты",
+      "priority": "critical"
+    }
+  ],
+  "noteFields": [
+    {
+      "id": "rank",
+      "label": "Минимальный ранг"
+    },
+    {
+      "id": "online",
+      "label": "Требуемый онлайн"
+    },
+    {
+      "id": "questions",
+      "label": "Дополнительные вопросы",
+      "multiline": true
+    }
+  ]
+}

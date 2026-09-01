@@ -1,0 +1,133 @@
+{
+  "modes": [
+    {
+      "minutes": 5,
+      "title": "Экстренное повторение",
+      "steps": [
+        {
+          "label": "0–2 мин • 8 ключевых понятий",
+          "kind": "terms",
+          "itemIds": [
+            "term-rp",
+            "term-ic",
+            "term-ooc",
+            "term-mg",
+            "term-nonrp",
+            "term-pg",
+            "term-dm",
+            "term-tk"
+          ]
+        },
+        {
+          "label": "2–3 мин • Основа Военной части",
+          "kind": "knowledge",
+          "itemIds": [
+            "features",
+            "warehouse",
+            "supply"
+          ]
+        },
+        {
+          "label": "3–4 мин • 3 критические ошибки",
+          "kind": "mistakes",
+          "itemIds": [
+            "mistake-ic-ooc",
+            "mistake-skip-discord",
+            "mistake-invent"
+          ]
+        },
+        {
+          "label": "4–5 мин • Mini quiz",
+          "kind": "quiz",
+          "itemIds": [
+            "mg-meaning",
+            "army-functions",
+            "supply-vehicle",
+            "server-promotion",
+            "unknown-rule"
+          ]
+        },
+        {
+          "label": "Перед входом",
+          "kind": "reminder",
+          "items": [
+            "Проверь Discord своего сервера",
+            "Проверь микрофон",
+            "Не придумывай неизвестное правило"
+          ]
+        }
+      ]
+    },
+    {
+      "minutes": 15,
+      "title": "Сильный маршрут перед обзвоном",
+      "steps": [
+        {
+          "label": "0–3 мин • Critical RP",
+          "kind": "terms",
+          "itemIds": [
+            "term-rp",
+            "term-ic",
+            "term-ooc",
+            "term-mg",
+            "term-nonrp",
+            "term-pg"
+          ]
+        },
+        {
+          "label": "3–7 мин • Army essentials",
+          "kind": "knowledge",
+          "itemIds": [
+            "features",
+            "leadership",
+            "warehouse",
+            "supply"
+          ]
+        },
+        {
+          "label": "7–10 мин • Критические правила и ошибки",
+          "kind": "mixed",
+          "itemIds": [
+            "truth",
+            "channels",
+            "local",
+            "mistake-long-answer",
+            "mistake-absolute-rights"
+          ]
+        },
+        {
+          "label": "10–13 мин • 3 ситуации",
+          "kind": "scenarios",
+          "itemIds": [
+            "conflict",
+            "ic-ooc-confusion",
+            "leadership-right"
+          ]
+        },
+        {
+          "label": "13–15 мин • Mini exam + финальная проверка",
+          "kind": "quiz",
+          "itemIds": [
+            "ic-ooc-difference",
+            "warehouse-rights",
+            "supply-after-delivery",
+            "rights-uncertainty",
+            "pre-call-gap"
+          ]
+        }
+      ]
+    },
+    {
+      "minutes": 30,
+      "title": "Расширенная подготовка",
+      "strategy": "priority",
+      "scenarioCount": 8,
+      "quizCount": 10
+    },
+    {
+      "minutes": 60,
+      "title": "Полная подготовка",
+      "strategy": "all"
+    }
+  ]
+}

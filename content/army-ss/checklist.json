@@ -1,0 +1,77 @@
+[
+  {
+    "id": "check-1",
+    "label": "Я знаю RP / IC / OOC",
+    "priority": "critical"
+  },
+  {
+    "id": "check-2",
+    "label": "Я знаю MG / NonRP / PG",
+    "priority": "critical"
+  },
+  {
+    "id": "check-3",
+    "label": "Я различаю DM / DB / SK / RK / TK",
+    "priority": "critical"
+  },
+  {
+    "id": "check-4",
+    "label": "Я понимаю назначение Военной части",
+    "priority": "critical"
+  },
+  {
+    "id": "check-5",
+    "label": "Я знаю функционал склада",
+    "priority": "high"
+  },
+  {
+    "id": "check-6",
+    "label": "Я знаю базовый транспорт",
+    "priority": "high"
+  },
+  {
+    "id": "check-7",
+    "label": "Я понимаю механику поставок",
+    "priority": "critical"
+  },
+  {
+    "id": "check-8",
+    "label": "Я знаю возможности руководящего состава",
+    "priority": "high"
+  },
+  {
+    "id": "check-9",
+    "label": "Я понимаю разницу RP и non-RP вопросов",
+    "priority": "high"
+  },
+  {
+    "id": "check-10",
+    "label": "Я проверил Discord своего сервера",
+    "priority": "critical"
+  },
+  {
+    "id": "check-11",
+    "label": "Я проверил требования на СС",
+    "priority": "high"
+  },
+  {
+    "id": "check-12",
+    "label": "Я проверил систему повышения",
+    "priority": "high"
+  },
+  {
+    "id": "check-13",
+    "label": "Я проверил систему отчётов",
+    "priority": "high"
+  },
+  {
+    "id": "check-14",
+    "label": "Я прошёл quiz минимум на 85%",
+    "priority": "critical"
+  },
+  {
+    "id": "check-15",
+    "label": "У меня работает Discord и микрофон",
+    "priority": "critical"
+  }
+]

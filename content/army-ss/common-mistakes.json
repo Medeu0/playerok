@@ -1,0 +1,65 @@
+[
+  {
+    "id": "mistake-rote",
+    "title": "Зубрить без понимания",
+    "body": "Заученный текст ломается при изменённой формулировке. Объясняй логику своими словами.",
+    "status": "training",
+    "priority": "critical"
+  },
+  {
+    "id": "mistake-ic-ooc",
+    "title": "Путать IC и OOC",
+    "body": "Сначала определи, относится ли информация к персонажу или к внеигровому контексту.",
+    "status": "training",
+    "priority": "critical"
+  },
+  {
+    "id": "mistake-old-rules",
+    "title": "Опира́ться на старые правила",
+    "body": "Перед обзвоном сверяй дату и актуальный официальный источник.",
+    "status": "training",
+    "priority": "critical"
+  },
+  {
+    "id": "mistake-skip-discord",
+    "title": "Не проверить Discord сервера",
+    "body": "Ранги, отчёты, форма и обязанности могут быть server-specific.",
+    "status": "training",
+    "priority": "critical"
+  },
+  {
+    "id": "mistake-invent",
+    "title": "Придумывать правило",
+    "body": "Если не уверен — скажи об этом и проверь источник.",
+    "status": "training",
+    "priority": "critical"
+  },
+  {
+    "id": "mistake-long-answer",
+    "title": "Отвечать слишком длинно",
+    "body": "Сильный ответ: факты → правило → действие.",
+    "status": "training",
+    "priority": "critical"
+  },
+  {
+    "id": "mistake-mix-functions",
+    "title": "Смешивать функции и предметы",
+    "body": "Различай возможности организации, транспорт, склад и права рангов.",
+    "status": "training",
+    "priority": "critical"
+  },
+  {
+    "id": "mistake-training-official",
+    "title": "Считать тренажёр официальным списком",
+    "body": "Scenarios обучают логике и всегда имеют статус «Тренировка».",
+    "status": "training",
+    "priority": "critical"
+  },
+  {
+    "id": "mistake-absolute-rights",
+    "title": "Приписывать все права каждому СС",
+    "body": "Общие возможности руководства не гарантируют одинаковые права всех рангов.",
+    "status": "training",
+    "priority": "high"
+  }
+]
