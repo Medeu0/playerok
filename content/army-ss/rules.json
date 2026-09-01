@@ -8,9 +8,7 @@
     "sourceIds": [
       "general",
       "gameplay"
-    ],
-    "whyItMatters": "Защищает от уверенного, но неверного ответа.",
-    "commonMistake": "Придумывать правило вместо проверки."
+    ]
   },
   {
     "id": "channels",
@@ -21,17 +19,13 @@
     "sourceIds": [
       "terms",
       "chat"
-    ],
-    "whyItMatters": "Помогает распознавать MG и объяснять контекст.",
-    "commonMistake": "Считать канал общения единственным признаком IC или OOC."
+    ]
   },
   {
     "id": "local",
     "title": "Серверные регламенты",
     "body": "Повышения, отчёты, форма и обязанности ранга могут зависеть от Discord конкретного сервера.",
     "status": "server_specific",
-    "priority": "critical",
-    "whyItMatters": "Не даёт выдать локальное требование за универсальное.",
-    "commonMistake": "Переносить систему одного сервера на все остальные."
+    "priority": "critical"
   }
 ]

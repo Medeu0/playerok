@@ -1,5 +1,1 @@
-import { createProductSkeleton } from './generator';
-const id = process.argv[2];
-if (!id) throw new Error('Usage: npm run create-product -- police-ss');
-console.log(`Created safe empty skeleton: ${createProductSkeleton(id)}`);
-console.log('Generated SKU contains no trusted factual content. Research and source validation are required before release.');
+import fs from'node:fs';import path from'node:path';const id=process.argv[2];if(!id||!/^[a-z0-9-]+$/.test(id))throw new Error('Укажите slug: npm run create-product -- police-ss');const target=path.join('content',id);if(fs.existsSync(target))throw new Error(`Dataset ${id} уже существует`);fs.cpSync('content/army-ss',target,{recursive:true});const f=path.join(target,'metadata.json'),m=JSON.parse(fs.readFileSync(f,'utf8'));Object.assign(m,{id,title:`Новый продукт: ${id}`,shortTitle:id.toUpperCase(),version:'0.1',storageKey:`gm-guide:${id}:v1`});fs.writeFileSync(f,JSON.stringify(m,null,2));console.log(`Создан ${target}. Очистите заимствованный контент и подтвердите каждый факт.`);

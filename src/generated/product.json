@@ -1,0 +1,1218 @@
+{
+  "metadata": {
+    "id": "army-ss",
+    "brand": "GRAND MOBILE",
+    "title": "Подготовка к СС Военной Части",
+    "shortTitle": "СС ВОЕННОЙ ЧАСТИ",
+    "subtitle": "Grand Mobile • 2026",
+    "verifiedAt": "01.09.2026",
+    "verifiedLong": "1 сентября 2026",
+    "version": "1.0",
+    "disclaimer": "Материал основан на публичных правилах Grand Mobile. Требования конкретного сервера и организации могут отличаться.",
+    "storageKey": "gm-guide:army-ss:v1"
+  },
+  "sources": [
+    {
+      "id": "organization",
+      "title": "Как попасть в организацию",
+      "url": "https://support.grnd.gg/ru/articles/11792114",
+      "publisher": "Grand Mobile Help Center",
+      "verifiedAt": "01.09.2026",
+      "usedBy": [
+        "Мой сервер"
+      ]
+    },
+    {
+      "id": "army",
+      "title": "Воинская часть",
+      "url": "https://support.grnd.gg/ru/articles/11970174",
+      "publisher": "Grand Mobile Help Center",
+      "verifiedAt": "01.09.2026",
+      "usedBy": [
+        "Военная часть",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "terms",
+      "title": "VI. Термины и их описание",
+      "url": "https://support.grnd.gg/ru/articles/12974307",
+      "publisher": "Grand Mobile Help Center",
+      "verifiedAt": "01.09.2026",
+      "usedBy": [
+        "RP-термины",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "general",
+      "title": "I. Общие положения проекта",
+      "url": "https://support.grnd.gg/ru/articles/12974291",
+      "publisher": "Grand Mobile Help Center",
+      "verifiedAt": "01.09.2026",
+      "usedBy": [
+        "Правила"
+      ]
+    },
+    {
+      "id": "gameplay",
+      "title": "V. Правила игрового процесса",
+      "url": "https://support.grnd.gg/ru/articles/12974302",
+      "publisher": "Grand Mobile Help Center",
+      "verifiedAt": "01.09.2026",
+      "usedBy": [
+        "Правила",
+        "Quiz"
+      ]
+    },
+    {
+      "id": "chat",
+      "title": "II. Правила общения и использования чатов",
+      "url": "https://support.grnd.gg/ru/articles/12974295",
+      "publisher": "Grand Mobile Help Center",
+      "verifiedAt": "01.09.2026",
+      "usedBy": [
+        "RP-термины",
+        "Правила"
+      ]
+    },
+    {
+      "id": "official-links",
+      "title": "Официальные источники Grand Mobile",
+      "url": "https://support.grnd.gg/ru/articles/12802629",
+      "publisher": "Grand Mobile Help Center",
+      "verifiedAt": "01.09.2026",
+      "usedBy": [
+        "Мой сервер",
+        "Источники"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "leadership",
+      "title": "Возможности руководящего состава",
+      "body": "Права зависят от настроек ранга: лидер настраивает их в пределах правил проекта. Не каждый ранг СС обязательно имеет весь список.",
+      "status": "official",
+      "priority": "critical",
+      "sourceIds": [
+        "army"
+      ],
+      "bullets": [
+        "Принятие сотрудников",
+        "Открытие и закрытие склада",
+        "Повышение и понижение",
+        "Установка тега",
+        "Изменение формы и одежды",
+        "Увольнение",
+        "Буксировка незанятого транспорта",
+        "Выдача выговоров",
+        "Выдача премий"
+      ]
+    },
+    {
+      "id": "features",
+      "title": "Возможности Военной части",
+      "body": "Базовые игровые механики организации.",
+      "status": "official",
+      "priority": "critical",
+      "sourceIds": [
+        "army"
+      ],
+      "bullets": [
+        "Наручники и снятие наручников",
+        "Департамент",
+        "Склад",
+        "Взаимодействие с военкоматом"
+      ]
+    },
+    {
+      "id": "warehouse",
+      "title": "Склад",
+      "body": "В официальном описании перечислено доступное снаряжение.",
+      "status": "official",
+      "priority": "critical",
+      "sourceIds": [
+        "army"
+      ],
+      "bullets": [
+        "Desert Eagle",
+        "AK-47",
+        "Помповый дробовик",
+        "Броня",
+        "Аптечка"
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Транспорт",
+      "body": "Основные типы транспорта Военной части.",
+      "status": "official",
+      "priority": "high",
+      "sourceIds": [
+        "army"
+      ],
+      "bullets": [
+        "УАЗ-452",
+        "Patriot",
+        "Армейский КамАЗ"
+      ]
+    },
+    {
+      "id": "supply",
+      "title": "Поставка материалов",
+      "body": "Командный процесс доставки материалов. Конкретные организационные команды уточняйте на сервере.",
+      "status": "official",
+      "priority": "critical",
+      "sourceIds": [
+        "army"
+      ],
+      "workflow": [
+        "Запрос материалов",
+        "Формирование команды",
+        "КамАЗ",
+        "Главный склад",
+        "Погрузка",
+        "Доставка",
+        "Автоматическая разгрузка",
+        "Вознаграждение"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "truth",
+      "title": "Проверяйте актуальность",
+      "body": "Если не уверены в правиле, откройте актуальный официальный источник: не додумывайте ответ.",
+      "status": "official",
+      "priority": "critical",
+      "sourceIds": [
+        "general",
+        "gameplay"
+      ]
+    },
+    {
+      "id": "channels",
+      "title": "Разделяйте IC и OOC",
+      "body": "Игровая и внеигровая информация относятся к разным контекстам. Следите, где и как используете сведения.",
+      "status": "official",
+      "priority": "critical",
+      "sourceIds": [
+        "terms",
+        "chat"
+      ]
+    },
+    {
+      "id": "local",
+      "title": "Серверные регламенты",
+      "body": "Повышения, отчёты, форма и обязанности ранга могут зависеть от Discord конкретного сервера.",
+      "status": "server_specific",
+      "priority": "critical"
+    }
+  ],
+  "terms": [
+    {
+      "id": "term-rp",
+      "title": "RP",
+      "abbr": "RP",
+      "name": "Role Play",
+      "body": "Игра роли и действия в логике персонажа.",
+      "example": "Корректный пример: сохранять контекст RP и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип RP или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "term-ic",
+      "title": "IC",
+      "abbr": "IC",
+      "name": "In Character",
+      "body": "Всё, что относится к игровому миру и персонажу.",
+      "example": "Корректный пример: сохранять контекст IC и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип IC или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "term-ooc",
+      "title": "OOC",
+      "abbr": "OOC",
+      "name": "Out Of Character",
+      "body": "Информация и общение вне игрового мира.",
+      "example": "Корректный пример: сохранять контекст OOC и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип OOC или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "term-mg",
+      "title": "MG",
+      "abbr": "MG",
+      "name": "Meta Gaming",
+      "body": "Использование OOC-информации в IC.",
+      "example": "Корректный пример: сохранять контекст MG и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип MG или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "term-nonrp",
+      "title": "NonRP",
+      "abbr": "NonRP",
+      "name": "Non Role Play",
+      "body": "Действия, не соответствующие логике RP.",
+      "example": "Корректный пример: сохранять контекст NonRP и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип NonRP или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "term-pg",
+      "title": "PG",
+      "abbr": "PG",
+      "name": "Power Gaming",
+      "body": "Нереалистичное преувеличение возможностей персонажа.",
+      "example": "Корректный пример: сохранять контекст PG и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип PG или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "term-dm",
+      "title": "DM",
+      "abbr": "DM",
+      "name": "Death Match",
+      "body": "Убийство или нанесение урона без достаточной RP-причины.",
+      "example": "Корректный пример: сохранять контекст DM и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип DM или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "term-mass-dm",
+      "title": "Mass DM",
+      "abbr": "Mass DM",
+      "name": "Mass Death Match",
+      "body": "Массовое нанесение урона или убийство без RP-причины.",
+      "example": "Корректный пример: сохранять контекст Mass DM и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип Mass DM или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "term-mass-dm-gz",
+      "title": "Mass DM GZ",
+      "abbr": "Mass DM GZ",
+      "name": "Mass DM Green Zone",
+      "body": "Массовое нарушение DM в зелёной зоне.",
+      "example": "Корректный пример: сохранять контекст Mass DM GZ и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип Mass DM GZ или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "term-db",
+      "title": "DB",
+      "abbr": "DB",
+      "name": "Drive By",
+      "body": "Нанесение урона транспортом или некорректная стрельба из него.",
+      "example": "Корректный пример: сохранять контекст DB и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип DB или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "term-sk",
+      "title": "SK",
+      "abbr": "SK",
+      "name": "Spawn Kill",
+      "body": "Убийство на месте появления персонажа.",
+      "example": "Корректный пример: сохранять контекст SK и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип SK или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "term-mass-sk",
+      "title": "Mass SK",
+      "abbr": "Mass SK",
+      "name": "Mass Spawn Kill",
+      "body": "Массовое убийство на месте появления.",
+      "example": "Корректный пример: сохранять контекст Mass SK и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип Mass SK или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "term-rk",
+      "title": "RK",
+      "abbr": "RK",
+      "name": "Revenge Kill",
+      "body": "Возвращение ради мести после смерти.",
+      "example": "Корректный пример: сохранять контекст RK и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип RK или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "term-tk",
+      "title": "TK",
+      "abbr": "TK",
+      "name": "Team Kill",
+      "body": "Убийство участника своей организации или семьи.",
+      "example": "Корректный пример: сохранять контекст TK и действовать по ситуации.",
+      "counterexample": "Антипример: нарушить принцип TK или смешать контексты.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scenario-1",
+      "title": "Конфликт сотрудников",
+      "situation": "Два младших сотрудника спорят и мешают работе. Что вы сделаете?",
+      "evaluationPoints": [
+        "Остановить конфликт",
+        "Выслушать обе стороны",
+        "Установить факты",
+        "Свериться с регламентом",
+        "Применять меры только при основании"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "critical"
+    },
+    {
+      "id": "scenario-2",
+      "title": "Нарушение правила",
+      "situation": "Сотрудник, возможно, нарушил правило. Как действовать?",
+      "evaluationPoints": [
+        "Не делать вывод без фактов",
+        "Зафиксировать обстоятельства",
+        "Проверить актуальное правило",
+        "Объяснить решение"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "critical"
+    },
+    {
+      "id": "scenario-3",
+      "title": "Непонятная поставка",
+      "situation": "Сотрудник не понимает порядок поставки материалов.",
+      "evaluationPoints": [
+        "Спокойно объяснить этапы",
+        "Распределить роль",
+        "Проверить понимание",
+        "Сопровождать на первом выполнении"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "critical"
+    },
+    {
+      "id": "scenario-4",
+      "title": "Неуверенность в правиле",
+      "situation": "Вы не уверены, актуально ли правило.",
+      "evaluationPoints": [
+        "Не придумывать",
+        "Открыть официальный источник",
+        "Уточнить серверный регламент",
+        "Честно обозначить проверку"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "critical"
+    },
+    {
+      "id": "scenario-5",
+      "title": "Задача не выполнена",
+      "situation": "Младший состав не выполнил поставленную задачу.",
+      "evaluationPoints": [
+        "Уточнить причину",
+        "Повторить понятную задачу",
+        "Проверить ресурсы и понимание",
+        "Действовать по регламенту"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "critical"
+    },
+    {
+      "id": "scenario-6",
+      "title": "Дисциплина",
+      "situation": "Сотрудник систематически мешает строю.",
+      "evaluationPoints": [
+        "Остановить нарушение",
+        "Предупредить и объяснить",
+        "Зафиксировать повторение",
+        "Применить соразмерную меру по регламенту"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "high"
+    },
+    {
+      "id": "scenario-7",
+      "title": "Спорная RP-ситуация",
+      "situation": "Участники по-разному оценивают спорную RP-ситуацию.",
+      "evaluationPoints": [
+        "Разделить факты и эмоции",
+        "Не обострять",
+        "Проверить правило",
+        "Передать компетентному лицу при необходимости"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "high"
+    },
+    {
+      "id": "scenario-8",
+      "title": "OOC в IC",
+      "situation": "Сотрудник использовал внеигровую информацию в игре.",
+      "evaluationPoints": [
+        "Определить факт MG",
+        "Объяснить различие IC и OOC",
+        "Пресечь использование информации",
+        "Следовать регламенту"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "high"
+    },
+    {
+      "id": "scenario-9",
+      "title": "Организация поставки",
+      "situation": "Нужно организовать поставку материалов.",
+      "evaluationPoints": [
+        "Собрать команду",
+        "Распределить роли",
+        "Подготовить КамАЗ",
+        "Контролировать погрузку и доставку",
+        "Подвести итог"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "high"
+    },
+    {
+      "id": "scenario-10",
+      "title": "Новый сотрудник",
+      "situation": "Новичок впервые заступил на службу.",
+      "evaluationPoints": [
+        "Представиться и объяснить цель",
+        "Дать информацию небольшими блоками",
+        "Показать механику",
+        "Проверить вопросами",
+        "Оставить канал для уточнений"
+      ],
+      "exampleLogic": [
+        "Сначала безопасность и факты",
+        "Затем правило и спокойное решение"
+      ],
+      "status": "training",
+      "priority": "high"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-term-1",
+      "category": "RP-термины",
+      "question": "Что означает RP?",
+      "options": [
+        "Игра роли и действия в логике персонажа.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "RP: Игра роли и действия в логике персонажа.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-term-2",
+      "category": "RP-термины",
+      "question": "Что означает IC?",
+      "options": [
+        "Всё, что относится к игровому миру и персонажу.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "IC: Всё, что относится к игровому миру и персонажу.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-term-3",
+      "category": "RP-термины",
+      "question": "Что означает OOC?",
+      "options": [
+        "Информация и общение вне игрового мира.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "OOC: Информация и общение вне игрового мира.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-term-4",
+      "category": "RP-термины",
+      "question": "Что означает MG?",
+      "options": [
+        "Использование OOC-информации в IC.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "MG: Использование OOC-информации в IC.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-term-5",
+      "category": "RP-термины",
+      "question": "Что означает NonRP?",
+      "options": [
+        "Действия, не соответствующие логике RP.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "NonRP: Действия, не соответствующие логике RP.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-term-6",
+      "category": "RP-термины",
+      "question": "Что означает PG?",
+      "options": [
+        "Нереалистичное преувеличение возможностей персонажа.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "PG: Нереалистичное преувеличение возможностей персонажа.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-term-7",
+      "category": "RP-термины",
+      "question": "Что означает DM?",
+      "options": [
+        "Убийство или нанесение урона без достаточной RP-причины.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "DM: Убийство или нанесение урона без достаточной RP-причины.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-term-8",
+      "category": "RP-термины",
+      "question": "Что означает Mass DM?",
+      "options": [
+        "Массовое нанесение урона или убийство без RP-причины.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "Mass DM: Массовое нанесение урона или убийство без RP-причины.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-term-9",
+      "category": "RP-термины",
+      "question": "Что означает Mass DM GZ?",
+      "options": [
+        "Массовое нарушение DM в зелёной зоне.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "Mass DM GZ: Массовое нарушение DM в зелёной зоне.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-term-10",
+      "category": "RP-термины",
+      "question": "Что означает DB?",
+      "options": [
+        "Нанесение урона транспортом или некорректная стрельба из него.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "DB: Нанесение урона транспортом или некорректная стрельба из него.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-term-11",
+      "category": "RP-термины",
+      "question": "Что означает SK?",
+      "options": [
+        "Убийство на месте появления персонажа.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "SK: Убийство на месте появления персонажа.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-term-12",
+      "category": "RP-термины",
+      "question": "Что означает Mass SK?",
+      "options": [
+        "Массовое убийство на месте появления.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "Mass SK: Массовое убийство на месте появления.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-term-13",
+      "category": "RP-термины",
+      "question": "Что означает RK?",
+      "options": [
+        "Возвращение ради мести после смерти.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "RK: Возвращение ради мести после смерти.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-term-14",
+      "category": "RP-термины",
+      "question": "Что означает TK?",
+      "options": [
+        "Убийство участника своей организации или семьи.",
+        "Правило повышения",
+        "Название транспорта",
+        "Серверный отчёт"
+      ],
+      "correctOption": 0,
+      "explanation": "TK: Убийство участника своей организации или семьи.",
+      "status": "official",
+      "sourceIds": [
+        "terms"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-army-1",
+      "category": "Военная часть",
+      "question": "Что относится к функциям Военной части?",
+      "options": [
+        "Работа со складом и поставка материалов",
+        "Настройка сервера",
+        "Выдача аккаунтов",
+        "Публикация правил"
+      ],
+      "correctOption": 0,
+      "explanation": "Склад и поставки входят в базовые механики.",
+      "status": "official",
+      "sourceIds": [
+        "army"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-army-2",
+      "category": "Военная часть",
+      "question": "Кто может управлять открытием склада?",
+      "options": [
+        "Руководство в пределах предоставленных прав",
+        "Любой игрок",
+        "Только новичок",
+        "Любой гражданский"
+      ],
+      "correctOption": 0,
+      "explanation": "Права рангов настраиваются лидером; не приписывайте их каждому рангу.",
+      "status": "official",
+      "sourceIds": [
+        "army"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-army-3",
+      "category": "Военная часть",
+      "question": "Какой транспорт используется для поставки?",
+      "options": [
+        "Армейский КамАЗ",
+        "Велосипед",
+        "Такси",
+        "Трамвай"
+      ],
+      "correctOption": 0,
+      "explanation": "Для поставки указан армейский КамАЗ.",
+      "status": "official",
+      "sourceIds": [
+        "army"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-army-4",
+      "category": "Военная часть",
+      "question": "Что есть на складе Военной части?",
+      "options": [
+        "AK-47 и броня",
+        "Только еда",
+        "Только форма",
+        "Гражданские документы"
+      ],
+      "correctOption": 0,
+      "explanation": "В перечне склада есть AK-47, броня и другое снаряжение.",
+      "status": "official",
+      "sourceIds": [
+        "army"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-army-5",
+      "category": "Военная часть",
+      "question": "Что следует после доставки в процессе поставки?",
+      "options": [
+        "Автоматическая разгрузка",
+        "Удаление организации",
+        "Регистрация аккаунта",
+        "Смена сервера"
+      ],
+      "correctOption": 0,
+      "explanation": "После доставки следует автоматическая разгрузка.",
+      "status": "official",
+      "sourceIds": [
+        "army"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-server-1",
+      "category": "Мой сервер",
+      "question": "Одинакова ли система повышений на всех серверах?",
+      "options": [
+        "Нет, нужно проверять материалы своего сервера",
+        "Да, без исключений",
+        "Она не существует",
+        "Её выбирает любой игрок"
+      ],
+      "correctOption": 0,
+      "explanation": "Организационные регламенты могут различаться.",
+      "status": "server_specific",
+      "priority": "critical"
+    },
+    {
+      "id": "q-rule-1",
+      "category": "Правила",
+      "question": "Что делать, если не уверены в актуальности правила?",
+      "options": [
+        "Проверить актуальный официальный источник",
+        "Придумать ответ",
+        "Назвать слух правилом",
+        "Игнорировать вопрос"
+      ],
+      "correctOption": 0,
+      "explanation": "Надёжнее свериться с официальным материалом.",
+      "status": "official",
+      "sourceIds": [
+        "general",
+        "gameplay"
+      ],
+      "priority": "critical"
+    },
+    {
+      "id": "q-army-6",
+      "category": "Военная часть",
+      "question": "Можно ли считать, что каждый СС-ранг имеет все права?",
+      "options": [
+        "Нет, права зависят от настроек ранга",
+        "Да, всегда",
+        "Только вне игры",
+        "Права не существуют"
+      ],
+      "correctOption": 0,
+      "explanation": "Лидер может настраивать права рангов.",
+      "status": "official",
+      "sourceIds": [
+        "army"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-army-7",
+      "category": "Военная часть",
+      "question": "Что относится к транспорту Военной части?",
+      "options": [
+        "УАЗ-452 и Patriot",
+        "Только спорткар",
+        "Метро",
+        "Самокат"
+      ],
+      "correctOption": 0,
+      "explanation": "В официальном описании названы УАЗ-452 и Patriot.",
+      "status": "official",
+      "sourceIds": [
+        "army"
+      ],
+      "priority": "high"
+    },
+    {
+      "id": "q-training",
+      "category": "Подход",
+      "question": "Как лучше отвечать на ситуационную задачу?",
+      "options": [
+        "Установить факты и свериться с регламентом",
+        "Сразу наказать",
+        "Придумать правило",
+        "Игнорировать стороны"
+      ],
+      "correctOption": 0,
+      "explanation": "Это тренировочная логика, не официальный вопрос.",
+      "status": "training",
+      "priority": "high"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "check-1",
+      "label": "Я знаю RP / IC / OOC",
+      "priority": "critical"
+    },
+    {
+      "id": "check-2",
+      "label": "Я знаю MG / NonRP / PG",
+      "priority": "critical"
+    },
+    {
+      "id": "check-3",
+      "label": "Я различаю DM / DB / SK / RK / TK",
+      "priority": "critical"
+    },
+    {
+      "id": "check-4",
+      "label": "Я понимаю назначение Военной части",
+      "priority": "critical"
+    },
+    {
+      "id": "check-5",
+      "label": "Я знаю функционал склада",
+      "priority": "high"
+    },
+    {
+      "id": "check-6",
+      "label": "Я знаю базовый транспорт",
+      "priority": "high"
+    },
+    {
+      "id": "check-7",
+      "label": "Я понимаю механику поставок",
+      "priority": "critical"
+    },
+    {
+      "id": "check-8",
+      "label": "Я знаю возможности руководящего состава",
+      "priority": "high"
+    },
+    {
+      "id": "check-9",
+      "label": "Я понимаю разницу RP и non-RP вопросов",
+      "priority": "high"
+    },
+    {
+      "id": "check-10",
+      "label": "Я проверил Discord своего сервера",
+      "priority": "critical"
+    },
+    {
+      "id": "check-11",
+      "label": "Я проверил требования на СС",
+      "priority": "high"
+    },
+    {
+      "id": "check-12",
+      "label": "Я проверил систему повышения",
+      "priority": "high"
+    },
+    {
+      "id": "check-13",
+      "label": "Я проверил систему отчётов",
+      "priority": "high"
+    },
+    {
+      "id": "check-14",
+      "label": "Я прошёл quiz минимум на 85%",
+      "priority": "critical"
+    },
+    {
+      "id": "check-15",
+      "label": "У меня работает Discord и микрофон",
+      "priority": "critical"
+    }
+  ],
+  "serverSpecific": {
+    "intro": "Help Center не задаёт единую универсальную систему повышений и отчётов для каждой организации. Проверьте Discord своего сервера: заметки остаются только на этом устройстве.",
+    "items": [
+      {
+        "id": "server-1",
+        "label": "Открыл официальный Discord Grand Mobile",
+        "priority": "critical"
+      },
+      {
+        "id": "server-2",
+        "label": "Выбрал свой сервер",
+        "priority": "critical"
+      },
+      {
+        "id": "server-3",
+        "label": "Нашёл Discord организаций",
+        "priority": "critical"
+      },
+      {
+        "id": "server-4",
+        "label": "Открыл раздел Военной части",
+        "priority": "critical"
+      },
+      {
+        "id": "server-5",
+        "label": "Проверил требования на СС",
+        "priority": "critical"
+      },
+      {
+        "id": "server-6",
+        "label": "Проверил систему повышения",
+        "priority": "critical"
+      },
+      {
+        "id": "server-7",
+        "label": "Проверил систему отчётов",
+        "priority": "critical"
+      },
+      {
+        "id": "server-8",
+        "label": "Проверил обязанности нужного ранга",
+        "priority": "critical"
+      },
+      {
+        "id": "server-9",
+        "label": "Проверил правила формы",
+        "priority": "critical"
+      },
+      {
+        "id": "server-10",
+        "label": "Проверил дополнительные регламенты",
+        "priority": "critical"
+      }
+    ],
+    "noteFields": [
+      {
+        "id": "rank",
+        "label": "Минимальный ранг"
+      },
+      {
+        "id": "online",
+        "label": "Требуемый онлайн"
+      },
+      {
+        "id": "questions",
+        "label": "Дополнительные вопросы",
+        "multiline": true
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Тут точные вопросы моего обзвона?",
+      "answer": "Нет гарантии, что вопросы одинаковы на всех серверах. Материал помогает подготовиться по официальным правилам, RP-терминам, механикам Военной части и типовым ситуациям."
+    },
+    {
+      "question": "Подходит для любого сервера?",
+      "answer": "Универсальная часть подходит для Grand Mobile, но требования конкретной организации и сервера необходимо проверить отдельно."
+    },
+    {
+      "question": "Материал актуальный?",
+      "answer": "Проверено 01.09.2026."
+    },
+    {
+      "question": "Есть ответы?",
+      "answer": "Есть проверенная теория, объяснения, тренировочные вопросы, quiz и ситуации. Неизвестные серверные вопросы не выдаются за официальный список."
+    },
+    {
+      "question": "Нужно что-то устанавливать?",
+      "answer": "Нет. Откройте сайт в современном браузере."
+    },
+    {
+      "question": "Работает на телефоне?",
+      "answer": "Да, интерфейс разработан прежде всего для смартфона."
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "01.09.2026",
+      "changes": [
+        "Проверены актуальные RP-термины",
+        "Проверена страница Военной части",
+        "Добавлен ситуационный тренажёр",
+        "Добавлены server-specific предупреждения"
+      ]
+    }
+  ],
+  "thresholds": [
+    {
+      "min": 0,
+      "label": "Нужно повторить"
+    },
+    {
+      "min": 60,
+      "label": "Средняя готовность"
+    },
+    {
+      "min": 75,
+      "label": "Хорошая готовность"
+    },
+    {
+      "min": 85,
+      "label": "Высокая готовность"
+    }
+  ]
+}

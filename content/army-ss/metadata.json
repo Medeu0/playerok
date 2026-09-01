@@ -6,22 +6,7 @@
   "subtitle": "Grand Mobile • 2026",
   "verifiedAt": "01.09.2026",
   "verifiedLong": "1 сентября 2026",
-  "version": "1.1",
+  "version": "1.0",
   "disclaimer": "Материал основан на публичных правилах Grand Mobile. Требования конкретного сервера и организации могут отличаться.",
-  "storageKey": "gm-guide:army-ss:v1",
-  "labels": {
-    "organization": "Военная часть",
-    "organizationLead": "Изучи устройство организации и механику поставок",
-    "terms": "RP-термины"
-  },
-  "contentMarkers": {
-    "expected": [
-      "Военная часть"
-    ],
-    "forbidden": [
-      "полиция",
-      "ФСБ",
-      "ОПГ"
-    ]
-  }
+  "storageKey": "gm-guide:army-ss:v1"
 }
