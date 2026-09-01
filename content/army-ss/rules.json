@@ -1,0 +1,31 @@
+[
+  {
+    "id": "truth",
+    "title": "Проверяйте актуальность",
+    "body": "Если не уверены в правиле, откройте актуальный официальный источник: не додумывайте ответ.",
+    "status": "official",
+    "priority": "critical",
+    "sourceIds": [
+      "general",
+      "gameplay"
+    ]
+  },
+  {
+    "id": "channels",
+    "title": "Разделяйте IC и OOC",
+    "body": "Игровая и внеигровая информация относятся к разным контекстам. Следите, где и как используете сведения.",
+    "status": "official",
+    "priority": "critical",
+    "sourceIds": [
+      "terms",
+      "chat"
+    ]
+  },
+  {
+    "id": "local",
+    "title": "Серверные регламенты",
+    "body": "Повышения, отчёты, форма и обязанности ранга могут зависеть от Discord конкретного сервера.",
+    "status": "server_specific",
+    "priority": "critical"
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "term-rp",
+    "title": "RP",
+    "abbr": "RP",
+    "name": "Role Play",
+    "body": "Игра роли и действия в логике персонажа.",
+    "example": "Корректный пример: сохранять контекст RP и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип RP или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical"
+  },
+  {
+    "id": "term-ic",
+    "title": "IC",
+    "abbr": "IC",
+    "name": "In Character",
+    "body": "Всё, что относится к игровому миру и персонажу.",
+    "example": "Корректный пример: сохранять контекст IC и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип IC или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical"
+  },
+  {
+    "id": "term-ooc",
+    "title": "OOC",
+    "abbr": "OOC",
+    "name": "Out Of Character",
+    "body": "Информация и общение вне игрового мира.",
+    "example": "Корректный пример: сохранять контекст OOC и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип OOC или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical"
+  },
+  {
+    "id": "term-mg",
+    "title": "MG",
+    "abbr": "MG",
+    "name": "Meta Gaming",
+    "body": "Использование OOC-информации в IC.",
+    "example": "Корректный пример: сохранять контекст MG и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип MG или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical"
+  },
+  {
+    "id": "term-nonrp",
+    "title": "NonRP",
+    "abbr": "NonRP",
+    "name": "Non Role Play",
+    "body": "Действия, не соответствующие логике RP.",
+    "example": "Корректный пример: сохранять контекст NonRP и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип NonRP или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical"
+  },
+  {
+    "id": "term-pg",
+    "title": "PG",
+    "abbr": "PG",
+    "name": "Power Gaming",
+    "body": "Нереалистичное преувеличение возможностей персонажа.",
+    "example": "Корректный пример: сохранять контекст PG и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип PG или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "critical"
+  },
+  {
+    "id": "term-dm",
+    "title": "DM",
+    "abbr": "DM",
+    "name": "Death Match",
+    "body": "Убийство или нанесение урона без достаточной RP-причины.",
+    "example": "Корректный пример: сохранять контекст DM и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип DM или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high"
+  },
+  {
+    "id": "term-mass-dm",
+    "title": "Mass DM",
+    "abbr": "Mass DM",
+    "name": "Mass Death Match",
+    "body": "Массовое нанесение урона или убийство без RP-причины.",
+    "example": "Корректный пример: сохранять контекст Mass DM и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип Mass DM или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high"
+  },
+  {
+    "id": "term-mass-dm-gz",
+    "title": "Mass DM GZ",
+    "abbr": "Mass DM GZ",
+    "name": "Mass DM Green Zone",
+    "body": "Массовое нарушение DM в зелёной зоне.",
+    "example": "Корректный пример: сохранять контекст Mass DM GZ и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип Mass DM GZ или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high"
+  },
+  {
+    "id": "term-db",
+    "title": "DB",
+    "abbr": "DB",
+    "name": "Drive By",
+    "body": "Нанесение урона транспортом или некорректная стрельба из него.",
+    "example": "Корректный пример: сохранять контекст DB и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип DB или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high"
+  },
+  {
+    "id": "term-sk",
+    "title": "SK",
+    "abbr": "SK",
+    "name": "Spawn Kill",
+    "body": "Убийство на месте появления персонажа.",
+    "example": "Корректный пример: сохранять контекст SK и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип SK или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high"
+  },
+  {
+    "id": "term-mass-sk",
+    "title": "Mass SK",
+    "abbr": "Mass SK",
+    "name": "Mass Spawn Kill",
+    "body": "Массовое убийство на месте появления.",
+    "example": "Корректный пример: сохранять контекст Mass SK и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип Mass SK или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high"
+  },
+  {
+    "id": "term-rk",
+    "title": "RK",
+    "abbr": "RK",
+    "name": "Revenge Kill",
+    "body": "Возвращение ради мести после смерти.",
+    "example": "Корректный пример: сохранять контекст RK и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип RK или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high"
+  },
+  {
+    "id": "term-tk",
+    "title": "TK",
+    "abbr": "TK",
+    "name": "Team Kill",
+    "body": "Убийство участника своей организации или семьи.",
+    "example": "Корректный пример: сохранять контекст TK и действовать по ситуации.",
+    "counterexample": "Антипример: нарушить принцип TK или смешать контексты.",
+    "status": "official",
+    "sourceIds": [
+      "terms"
+    ],
+    "priority": "high"
+  }
+]

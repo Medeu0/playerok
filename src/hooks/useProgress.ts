@@ -1,0 +1,2 @@
+import {useEffect,useState} from 'react'; import type {Progress} from '../types/content'; import {emptyProgress} from '../utils/engine';
+export function useProgress(key:string){const [progress,setProgress]=useState<Progress>(()=>{try{return {...emptyProgress,...JSON.parse(localStorage.getItem(key)||'{}')} }catch{return emptyProgress}});useEffect(()=>localStorage.setItem(key,JSON.stringify(progress)),[key,progress]);return [progress,setProgress] as const}
