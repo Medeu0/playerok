@@ -13,6 +13,7 @@
   },
   "include": [
     "vite.config.ts",
-    "scripts"
+    "scripts",
+    "src/data/schema.ts"
   ]
 }

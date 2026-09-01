@@ -11,7 +11,9 @@
     "create-product": "tsx scripts/create-product.ts",
     "predev": "tsx scripts/prepare-product.ts",
     "prebuild": "tsx scripts/prepare-product.ts",
-    "pretest": "tsx scripts/prepare-product.ts"
+    "pretest": "tsx scripts/prepare-product.ts",
+    "build:file": "tsx scripts/build-single-file.ts",
+    "build:files": "tsx scripts/build-all-files.ts"
   },
   "dependencies": {
     "@vitejs/plugin-react": "4.3.4",

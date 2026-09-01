@@ -8,5 +8,6 @@
   "verifiedLong": "1 сентября 2026",
   "version": "1.0",
   "disclaimer": "Материал основан на публичных правилах Grand Mobile. Требования конкретного сервера и организации могут отличаться.",
-  "storageKey": "gm-guide:army-ss:v1"
+  "storageKey": "gm-guide:army-ss:v1",
+  "releaseReady": true
 }
