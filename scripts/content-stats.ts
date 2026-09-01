@@ -1,0 +1,3 @@
+import { auditDataset } from './audit-lib';import { readDataset, requestedProduct } from './content-tools';
+const id=requestedProduct(),raw:any=readDataset(id),r=auditDataset(raw,id),m=r.metrics;
+console.log(`Product: ${id}\nOfficial sources: ${m.sources}\nKnowledge items: ${m.knowledge}\nRP terms: ${m.terms}\nQuiz questions: ${m.quiz}\nScenarios: ${m.scenarios}\nChecklist items: ${m.checklist}\nFAQ: ${m.faq}\n\nOfficial items without sources: ${r.errors.filter(x=>x.code==='official-source').length}\nBroken source refs: ${r.errors.filter(x=>x.code==='source-ref').length}\nDuplicate quiz questions: ${r.errors.filter(x=>x.code==='quiz-duplicate').length}\nWarnings: ${r.warnings.length}`);
